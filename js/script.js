@@ -260,6 +260,7 @@ $(document).ready(function() {
 	var theday = new Date();
 	theday = new Date(2023, 11, 24, 18);
 	theday.setMinutes(30);
+	console.log(theday);
 	$('#countdown').countdown({until: theday, format: 'WDHMS'});
 	$('#countdown').countdown($.countdown.regionalOptions['custom-label']); 
 		 
